@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2907D4A51D460EA800E51D3E /* GFDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2907D4A41D460EA800E51D3E /* GFDrawView.m */; };
 		29761A221D45B38D00A5129B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29761A211D45B38D00A5129B /* main.m */; };
 		29761A251D45B38D00A5129B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29761A241D45B38D00A5129B /* AppDelegate.m */; };
 		29761A281D45B38D00A5129B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29761A271D45B38D00A5129B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2907D4A31D460EA800E51D3E /* GFDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDrawView.h; sourceTree = "<group>"; };
+		2907D4A41D460EA800E51D3E /* GFDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFDrawView.m; sourceTree = "<group>"; };
 		29761A1D1D45B38D00A5129B /* Quartz2DSimpleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartz2DSimpleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29761A211D45B38D00A5129B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29761A231D45B38D00A5129B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				29761A241D45B38D00A5129B /* AppDelegate.m */,
 				29761A261D45B38D00A5129B /* ViewController.h */,
 				29761A271D45B38D00A5129B /* ViewController.m */,
+				2907D4A31D460EA800E51D3E /* GFDrawView.h */,
+				2907D4A41D460EA800E51D3E /* GFDrawView.m */,
 				29761A291D45B38D00A5129B /* Main.storyboard */,
 				29761A2C1D45B38D00A5129B /* Assets.xcassets */,
 				29761A2E1D45B38D00A5129B /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29761A281D45B38D00A5129B /* ViewController.m in Sources */,
+				2907D4A51D460EA800E51D3E /* GFDrawView.m in Sources */,
 				29761A251D45B38D00A5129B /* AppDelegate.m in Sources */,
 				29761A221D45B38D00A5129B /* main.m in Sources */,
 			);
@@ -300,6 +306,7 @@
 				29761A361D45B38D00A5129B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
