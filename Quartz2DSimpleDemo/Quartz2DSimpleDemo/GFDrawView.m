@@ -29,7 +29,11 @@
     CGContextDrawPath(context, kCGPathFillStroke);
     
 //    context
-    
+    //画圆
+    CGContextMoveToPoint(context, 100, 200);
+    CGContextAddArc(context, 100, 200, 50, 0, M_PI * 2, 0);
+    [[UIColor grayColor] setFill];
+    CGContextDrawPath(context, kCGPathFill);
     
 }
 
