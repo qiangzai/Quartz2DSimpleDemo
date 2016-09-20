@@ -35,6 +35,8 @@
     [[UIColor grayColor] setFill];
     CGContextDrawPath(context, kCGPathFill);
     
+    //add code
+    
 }
 
 
